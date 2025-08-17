@@ -1,43 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Portifolio de João Pedro [Apenas Pedro]"/>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/noscript.css" />
+    <title>Portifólio de Apenas Pedro</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <div class="card-profile">
+        <div>
+        <div class="card-profile__title">
+        <h1>João Pedro da Cruz 🪐</h1>
+        <span>Desenvolvedor Front-End</span>
+        </div>
+        <div class="card-profile__description">
+        Sou um desenvolvedor pronto para novos desafios.
+        </div>
+        <div class="card-profile__techs">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" />
+        </div>
+      </div>
+  
+      <div class="card-profile__photo">
+        <img src="https://avatars.githubusercontent.com/u/108557012?s=400&u=2f2902e26ee47e6c7adca2580961654a6ab76e4f&v=4" alt="Foto de perfil" />
+      </div>
+      </div>
+      <div class="card-techs">
+        <div class="card-techs__title">Tecnologias</div>
+        <div class="card-techs__grid">
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+            <span>React</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
+            <span>HTML5</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+            <span>CSS3</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" title="PHP" />
+            <span>PHP</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase" />
+            <span>Firebase</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" />
+            <span>Git</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL" />
+            <span>MySQL</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
+            <span>Java</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" title="Angular" />
+            <span>Angular</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" />
+            <span>Python</span>
+          </div>
+          <div class="card-tech">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" title="C" />
+            <span>C</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-projects">
+        <div class="card-projects__title">Projetos</div>
+        <div class="card-projects__grid">
+          <div class="card-project">
+            <img class="card-project__img" src="https://media.licdn.com/dms/image/v2/D4D2DAQEWHKa4XhfpXA/profile-treasury-image-shrink_800_800/B4DZbbY07QGwAY-/0/1747437441159?e=1756051200&v=beta&t=-D-PLlCBx1xdYkia4MA0WuP36FALucn4TbQfHbtawkI" alt="Calendário Escolar" />
+            <div class="card-project__info">
+              <div class="card-project__title">Calendário Escolar</div>
+              <div class="card-project__techs">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+              </div>
+              <div class="card-project__desc">Aplicação para gestão de eventos e feriados escolares, com autenticação e integração em tempo real.</div>
+            </div>
+          </div>
+          <div class="card-project">
+            <img class="card-project__img" src="https://raw.githubusercontent.com/joaopedrocruz/todo-app/main/public/cover.png" alt="ToDo App" />
+            <div class="card-project__info">
+              <div class="card-project__title">ToDo App</div>
+              <div class="card-project__techs">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase" />
+              </div>
+              <div class="card-project__desc">Aplicação de lista de tarefas com autenticação, integração com Firebase e design minimalista.</div>
+            </div>
+          </div>
+          <div class="card-project">
+            <img class="card-project__img" src="https://raw.githubusercontent.com/joaopedrocruz/portifolio/main/public/cover.png" alt="Portfólio Pessoal" />
+            <div class="card-project__info">
+              <div class="card-project__title">Portfólio Pessoal</div>
+              <div class="card-project__techs">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scss/scss-original.svg" alt="SCSS" title="SCSS" />
+              </div>
+              <div class="card-project__desc">Portfólio para apresentar meus projetos, habilidades e trajetória como Dev Jr.</div>
+            </div>
+          </div>
+          <div class="card-project">
+            <img class="card-project__img" src="https://raw.githubusercontent.com/joaopedrocruz/api-node/main/public/cover.png" alt="API Node" />
+            <div class="card-project__info">
+              <div class="card-project__title">API Node</div>
+              <div class="card-project__techs">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL" />
+              </div>
+              <div class="card-project__desc">API RESTful para gerenciamento de dados, desenvolvida com Node.js e MySQL.</div>
+            </div>
+          </div>
+          <div class="card-project">
+            <img class="card-project__img" src="https://raw.githubusercontent.com/joaopedrocruz/clone-instagram/main/public/cover.png" alt="Clone Instagram" />
+            <div class="card-project__info">
+              <div class="card-project__title">Clone Instagram</div>
+              <div class="card-project__techs">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase" />
+              </div>
+              <div class="card-project__desc">Clone funcional do Instagram com autenticação e feed em tempo real.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
